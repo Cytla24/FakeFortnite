@@ -10,7 +10,7 @@ def Databank(x,y):
       if a == "E":
         pass
       elif a == "P":
-        s = randint(0,3)
+        s = randint(0,2)
         if s == 0:
           print("Youve planted and gotten two times what you planted")
           User.action_plant("apple")
